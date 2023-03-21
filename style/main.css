@@ -131,3 +131,25 @@ body {
     border-top: 2px solid white;
     margin-top: 30px;
 }
+
+#rs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#rstxt {
+    display: inline-block;
+    background-color: red;
+    height: 70px;
+}
+
+#rsimg img {
+    
+    width: 5%;
+}
+
+#rsimg::before {
+    content: "follow me";
+}
