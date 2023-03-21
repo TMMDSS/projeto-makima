@@ -118,3 +118,10 @@ body {
     margin: 10px;
     width: 90%;
 }
+
+#rodape {
+    height: 300px;
+    background-image: linear-gradient(to top, rgb(175, 28, 28), #970068 50%, #2400DB);
+    border-top: 2px solid white;
+    margin-top: 30px;
+}
