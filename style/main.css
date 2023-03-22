@@ -9,21 +9,21 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, red 30%, blue);
+    background-image: linear-gradient(to bottom, rgb(170, 21, 21) 30%, blue);
 }
 
 #cabeçalho {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(to right, rgb(252, 45, 45), rgb(107, 20, 20) );
+    background: linear-gradient(to right, rgb(175, 31, 31), rgb(107, 20, 20) );
     width: 100%;
     height: 400px;
     padding-left: 15px;
 }
 
 #cabeçalho h1 {
-    color: yellow;
+    color: rgb(207, 207, 98);
     font-size: 4em;
 }
 
@@ -33,7 +33,7 @@ body {
 #boxTitulo {
     display: block;
     width: 460px;
-    background-color: red;
+    background-color: rgb(192, 17, 17);
     box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.20);
     padding: 10px;
 }
