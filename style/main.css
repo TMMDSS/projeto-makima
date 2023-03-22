@@ -126,10 +126,11 @@ body {
 }
 
 #rodape {
-    height: 500px;
-    background-image: linear-gradient(to top, rgb(175, 28, 28), #970068 50%, #2400DB);
+    height: 350px;
+    background-image: linear-gradient(to top, #970068, #2400DB);
     border-top: 2px solid white;
     margin-top: 30px;
+    padding: 50px;
 }
 
 #rs {
@@ -139,10 +140,9 @@ body {
     height: 50px;
 }
 
-#rstxt {
-    display: inline-block;
-    background-color: red;
-    height: 70px;
+#rsimg {
+    
+    text-align: left;
 }
 
 #rsimg img {
@@ -152,4 +152,43 @@ body {
 
 #rsimg::before {
     content: "follow me";
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -10px;
+}
+
+#rstxt {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-top: 2px solid rgba(255, 255, 255, 0.315);
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+
+#rstxt a {
+    color: white;
+    text-decoration: none;
+}
+
+#rstxt a:hover {
+    text-decoration: underline;
+}
+
+#ultimaDiv {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 150px;
+}
+
+#ultimaDiv p, a {
+    color: white;
+    text-decoration: none;
+}
+
+#ultimaDiv a:hover {
+    text-decoration: underline;
 }
